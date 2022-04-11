@@ -4,7 +4,6 @@
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
-  "files": ["build/**/*"],
   "scripts": {
     "build": "tsc",
     "clean": "del ./build/",
