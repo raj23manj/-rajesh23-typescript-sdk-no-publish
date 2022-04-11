@@ -1,0 +1,18 @@
+{
+  "name": "@rajesh23/typescript-sdk-no-publish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "del ./build/",
+    "postinstall": "tsc --outDir ./build"
+  },
+  "keywords": [],
+  "author": "rajeshmanjunath",
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "typescript": "^4.6.3"
+  }
+}
