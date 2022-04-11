@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "del ./build/",
-    "postinstall": ""
+    "postinstall": "tsc --outDir ./build"
   },
   "keywords": [],
   "author": "rajeshmanjunath",
