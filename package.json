@@ -7,8 +7,7 @@
   "files": ["build/**/*"],
   "scripts": {
     "build": "tsc",
-    "clean": "del ./build/",
-    "postinstall": "tsc --outDir ./build"
+    "clean": "del ./build/"
   },
   "keywords": [],
   "author": "rajeshmanjunath",
